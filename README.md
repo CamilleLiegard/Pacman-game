@@ -1,5 +1,7 @@
 # Pacman-game
 
+This game was build mostly following the tutorial of Ania Kubów: https://www.youtube.com/watch?v=CeUGlSl2i4Q&t=683s.
+
 Recreating the famous 90’s video game was a great way to discover new facilities and features of Javascript, such as :
 
 push() -> pushing elements to the end of an array.
