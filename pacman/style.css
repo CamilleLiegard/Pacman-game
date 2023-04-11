@@ -1,0 +1,150 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px; 
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+
+
+.box {
+margin: 20px;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    color:blue;
+    background-color:white;
+    border-radius: 35px;
+    height: 60px;
+    width: 60px;
+    box-shadow: 1px 1px 10px white;
+    transition: 1s all ease;
+    
+}
+
+
+.start, i {
+    text-align: center;
+    font-size: 28px;
+    color:blue;
+
+}
+
+button {
+    display: none;
+}
+
+.score {
+    display: none;
+    margin: 10px;
+    color:white;
+    font-size:18px;
+}
+
+
+
+.grid {    
+    position: relative;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px white;
+
+}
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: white;  
+    border-radius: 10px; 
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: rgb(35, 35, 124);
+}
+
+.power-pellet {
+    background-color: rgb(54, 220, 54);
+    box-shadow: 1px 1px 12px white;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.pinky {
+    background-color: pink;
+    border-radius: 10px;
+}
+
+.inky {
+    background-color: cyan;
+    border-radius: 10px;
+}
+
+.clyde {
+    background-color: orange;
+    border-radius: 10px;     
+}
+
+.ivy {
+    background-color: rgb(0, 255, 4);
+    border-radius: 10px;
+}
+
+.jake {
+    background-color: rgb(149, 0, 255);
+    border-radius: 10px;     
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+}
+
+.message {
+    display: none;
+}
+
+
+@media (max-width:768px) {
+
+    .grid {
+        display: none;
+    }
+    .box {
+        display: none;
+    }
+
+    .message {
+        display: block;
+        justify-content: center;
+    }
+    .message h3 {
+        display: block;
+        color: red;
+    }
+
+}
